@@ -1,8 +1,17 @@
-Conversor de CSV para HTML
+# Conversor de CSV para HTML
 
-Este projeto lê um arquivo CSV e gera automaticamente uma página HTML formatada com Bootstrap, exibindo os dados em forma de tabela.
-Ao finalizar a conversão, o programa abre o navegador padrão e exibe o arquivo gerado.
+Este projeto lê um arquivo CSV e gera uma página HTML com uma tabela formatada usando **Bootstrap**.
 
-Objetivo
+## 📝 Objetivo
+Aplicar manipulação de arquivos em C e integrar ferramentas externas para gerar uma visualização estruturada dos dados.
 
-Aplicar conceitos de manipulação de arquivos em C, além de organizar o código e empregar práticas de documentação e versionamento usando GitHub.
+## 📂 Conteúdo
+- Código-fonte em C
+- Conversão automática CSV → Tabela HTML
+- Abertura automática do arquivo HTML no navegador
+
+## ▶ Como compilar
+No Codespaces ou no terminal Linux, use:
+
+```bash
+gcc main.c converter.c -o conversor
